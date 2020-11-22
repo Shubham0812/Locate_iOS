@@ -10,7 +10,8 @@ import UIKit
 class ViewController: UIViewController {
 
     // MARK:- outlets for the viewController
-
+    @IBOutlet weak var locationLabel: UILabel!
+    
     
     // MARK:- variables for the viewController
 
