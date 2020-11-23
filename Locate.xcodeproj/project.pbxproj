@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		F3ABCD36256AA78C009C222D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ABCD35256AA78C009C222D /* AppDelegate.swift */; };
 		F3ABCD38256AA78C009C222D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ABCD37256AA78C009C222D /* SceneDelegate.swift */; };
-		F3ABCD3A256AA78C009C222D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ABCD39256AA78C009C222D /* ViewController.swift */; };
-		F3ABCD3D256AA78C009C222D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3ABCD3B256AA78C009C222D /* Main.storyboard */; };
+		F3ABCD3A256AA78C009C222D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ABCD39256AA78C009C222D /* HomeViewController.swift */; };
+		F3ABCD3D256AA78C009C222D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3ABCD3B256AA78C009C222D /* Home.storyboard */; };
 		F3ABCD3F256AA78F009C222D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3ABCD3E256AA78F009C222D /* Assets.xcassets */; };
 		F3ABCD42256AA78F009C222D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3ABCD40256AA78F009C222D /* LaunchScreen.storyboard */; };
 		F3ABCD60256AB253009C222D /* SF-Mono-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3ABCD54256AB253009C222D /* SF-Mono-Bold.otf */; };
@@ -25,14 +25,16 @@
 		F3ABCD69256AB253009C222D /* SF-Mono-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3ABCD5D256AB253009C222D /* SF-Mono-Medium.otf */; };
 		F3ABCD6A256AB253009C222D /* SF-Mono-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3ABCD5E256AB253009C222D /* SF-Mono-LightItalic.otf */; };
 		F3ABCD6B256AB253009C222D /* SF-Mono-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = F3ABCD5F256AB253009C222D /* SF-Mono-HeavyItalic.otf */; };
+		F3ABCD71256AB316009C222D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ABCD70256AB316009C222D /* LocationManager.swift */; };
+		F3ABCD76256AC1E7009C222D /* BoxBind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3ABCD75256AC1E7009C222D /* BoxBind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F3ABCD32256AA78C009C222D /* Locate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3ABCD35256AA78C009C222D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3ABCD37256AA78C009C222D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F3ABCD39256AA78C009C222D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F3ABCD3C256AA78C009C222D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3ABCD39256AA78C009C222D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F3ABCD3C256AA78C009C222D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		F3ABCD3E256AA78F009C222D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3ABCD41256AA78F009C222D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3ABCD43256AA78F009C222D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +50,8 @@
 		F3ABCD5D256AB253009C222D /* SF-Mono-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-Medium.otf"; sourceTree = "<group>"; };
 		F3ABCD5E256AB253009C222D /* SF-Mono-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-LightItalic.otf"; sourceTree = "<group>"; };
 		F3ABCD5F256AB253009C222D /* SF-Mono-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Mono-HeavyItalic.otf"; sourceTree = "<group>"; };
+		F3ABCD70256AB316009C222D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F3ABCD75256AC1E7009C222D /* BoxBind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxBind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 			children = (
 				F3ABCD4B256AB1A1009C222D /* Core Controllers */,
 				F3ABCD4C256AB1B0009C222D /* Modules */,
+				F3ABCD6F256AB2FF009C222D /* Services */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -102,6 +107,7 @@
 			children = (
 				F3ABCD35256AA78C009C222D /* AppDelegate.swift */,
 				F3ABCD37256AA78C009C222D /* SceneDelegate.swift */,
+				F3ABCD75256AC1E7009C222D /* BoxBind.swift */,
 			);
 			path = "Core Controllers";
 			sourceTree = "<group>";
@@ -117,8 +123,8 @@
 		F3ABCD4E256AB1D3009C222D /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				F3ABCD39256AA78C009C222D /* ViewController.swift */,
-				F3ABCD3B256AA78C009C222D /* Main.storyboard */,
+				F3ABCD39256AA78C009C222D /* HomeViewController.swift */,
+				F3ABCD3B256AA78C009C222D /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -157,6 +163,14 @@
 				F3ABCD5F256AB253009C222D /* SF-Mono-HeavyItalic.otf */,
 			);
 			path = "SF Mono";
+			sourceTree = "<group>";
+		};
+		F3ABCD6F256AB2FF009C222D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F3ABCD70256AB316009C222D /* LocationManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +243,7 @@
 				F3ABCD62256AB253009C222D /* SF-Mono-Regular.otf in Resources */,
 				F3ABCD6A256AB253009C222D /* SF-Mono-LightItalic.otf in Resources */,
 				F3ABCD65256AB253009C222D /* SF-Mono-MediumItalic.otf in Resources */,
-				F3ABCD3D256AA78C009C222D /* Main.storyboard in Resources */,
+				F3ABCD3D256AA78C009C222D /* Home.storyboard in Resources */,
 				F3ABCD63256AB253009C222D /* SF-Mono-Heavy.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,7 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3ABCD3A256AA78C009C222D /* ViewController.swift in Sources */,
+				F3ABCD76256AC1E7009C222D /* BoxBind.swift in Sources */,
+				F3ABCD71256AB316009C222D /* LocationManager.swift in Sources */,
+				F3ABCD3A256AA78C009C222D /* HomeViewController.swift in Sources */,
 				F3ABCD36256AA78C009C222D /* AppDelegate.swift in Sources */,
 				F3ABCD38256AA78C009C222D /* SceneDelegate.swift in Sources */,
 			);
@@ -250,12 +266,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F3ABCD3B256AA78C009C222D /* Main.storyboard */ = {
+		F3ABCD3B256AA78C009C222D /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F3ABCD3C256AA78C009C222D /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		F3ABCD40256AA78F009C222D /* LaunchScreen.storyboard */ = {
@@ -390,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VXZ7XFH447;
 				INFOPLIST_FILE = Locate/Info.plist;
@@ -399,6 +416,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shubham-iosdev.Locate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -409,6 +427,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VXZ7XFH447;
 				INFOPLIST_FILE = Locate/Info.plist;
@@ -418,6 +437,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shubham-iosdev.Locate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
