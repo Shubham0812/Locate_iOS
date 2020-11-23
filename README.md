@@ -1,6 +1,7 @@
 # Locate_iOS
 
-iOS application created to show the usage of Core Location Manager through a Location Manager class.
+**iOS application created to show the usage of Core Location Manager through a Location Manager class.**
+
 You can download the PDF for future reference.
 
 ## Languages / Frameworks Used
